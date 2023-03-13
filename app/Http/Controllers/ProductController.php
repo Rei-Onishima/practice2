@@ -12,6 +12,6 @@ class ProductController extends Controller
      * @return view
      */
     public function showList() {
-        return view('product.list');
+        return view('product_list');
     }
 }
